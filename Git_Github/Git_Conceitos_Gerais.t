@@ -36,3 +36,40 @@
 // HEAD: Estado atual do nosso código, ou seja, onde o Git os colocou
 // Working tree: Local onde os arquivos realmente estão sendo armazenados e editados
 // index: Local onde o Git armazena o que será commitado, ou seja, o local entre a working tree e o repositório Git em si.'
+
+/1 - Adicionando um repositorio Remoto: /
+
+git remote add apelido url
+
+apelido: Este é um nome que você atribui ao repositório remoto
+url: Aqui, você insere a URL do repositório remoto
+
+'Exemplo:
+
+git remote add origin git@github.com:VitorAugusto641/ebook_developer.git 
+'
+
+/ 2 - Listar os repositórios remotos: /
+
+'Para listar os repositórios remotos associados ao seu projeto local, você pode utilizar o comando git remote -v. 
+Isso exibirá uma lista de todos os repositórios remotos vinculados ao seu projeto, juntamente com suas URLs.'
+
+/ 3 - Remover um repositórios remotos: /
+
+'Caso você não precise mais de um repositório remoto específico, pode removê-lo com o comando git remote remove apelido. 
+Substitua 'apelido' pelo nome do repositório remoto que deseja remover. Aqui está um exemplo:'
+
+git remote remove origin
+
+/ 4 - Alterar a URL de um repositório remoto: /
+
+git remote set-url apelido nova_url
+
+Substitua 'apelido' pelo nome atual do repositório remoto e 'novo_apelido' pelo novo nome que você deseja atribuir a ele. 
+
+'Exemplo:'
+git remote set-url origin https://github.com/seu-usuario/seu-repositorio.git
+
+/ Podemos adicionar participantes em nosso repositorio para fazer alterações /
+
+Entramos no repositorio dentro do git ; depois vamos em configurações ; Colaboradores ; Adicionar Pessoas ; e colocamos username ou email da pessoa. 

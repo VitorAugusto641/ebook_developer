@@ -24,5 +24,5 @@ This key is not known by any other names.''
 /Depois da primeira vez/
 
 // git add .
-// git comit -m "Exemplos da aula 1"
+// git commit -m "Exemplos da aula 1"
 // git push -u origin main
