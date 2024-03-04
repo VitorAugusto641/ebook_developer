@@ -1,13 +1,26 @@
-// Abrimos o terminal do 'git bush'
-// Entra na pasta desejada
-// git init  
+// 1º Abrimos o terminal do 'git bush'
+// 2º Entra na pasta desejada
+// 3º git init  
+
+/Observação:/
 'Transformar o diretório do projeto em um repositório Git, com pasta como a master.'
 'git init serve para criar um novo repositório Git e por isso deve ser executado apenas uma única vez'
 
-// git status
-// https://github.com/VitorAugusto641/Git-e-Github-Ebook-de-estudos.git
-// git remote add origin https://github.com/VitorAugusto641/Git-e-Github-Ebook-de-estudos.git
 // git add .
-// git status
 // git commit -m "Exemplos da aula 1"
-// git push origin master
+// git branch -M main
+// git remote add origin git@github.com:VitorAugusto641/ebook_developer.git          'muda no link para ssh dentro do git'
+// git push -u origin main
+
+
+// git status - Caso queira confirmar se subiu ou não
+
+
+
+
+
+'Se o computador for novo, vai dar esse erro: 
+'git push -u origin main The authenticity of host github.com (20.201.28.151) cant be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.''
+'Significa que está sem a chave ssh no git, precisa colocar a chave ssh lá'
