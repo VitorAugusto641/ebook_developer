@@ -12,11 +12,7 @@
 // git remote add origin git@github.com:VitorAugusto641/ebook_developer.git          'muda no link para ssh dentro do git'
 // git push -u origin main
 
-
 // git status - Caso queira confirmar se subiu ou não
-
-
-
 
 
 'Se o computador for novo, vai dar esse erro: 
@@ -24,3 +20,9 @@
 ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
 This key is not known by any other names.''
 'Significa que está sem a chave ssh no git, precisa colocar a chave ssh lá'
+
+/Depois da primeira vez/
+
+// git add .
+// git comit -m "Exemplos da aula 1"
+// git push -u origin main
