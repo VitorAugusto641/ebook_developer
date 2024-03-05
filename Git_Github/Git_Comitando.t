@@ -12,6 +12,9 @@
 // git remote add origin git@github.com:VitorAugusto641/ebook_developer.git          'muda no link para ssh dentro do git'
 // git push -u origin main
 
+// Antes de confirmar, se quiser podemos atualizar o nosso projeto para ver se tem atualização:
+//git pull origin main 
+
 // git status - Caso queira confirmar se subiu ou não
 
 
