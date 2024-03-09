@@ -227,6 +227,7 @@ let palavraTentativa = numeroDeTentativa > 1 ? 'tentativas' : 'tentativa'
 
 // Conceito: 
 'É usada para analisar uma string e retornar um número inteiro com base nessa string. Ela tenta extrair e retornar o primeiro número inteiro encontrado na string.'
+'Em resumo, utilizado quando você quer receber do tipo: number.'
 
 // Sintaxe: 
 'parseInt(string, base);'
@@ -355,6 +356,17 @@ const array = [1, 2, 3, 4, 5];
 
 console.log(array.includes(3)); // Retorna true, pois 3 está presente no array
 console.log(array.includes(6)); // Retorna false, pois 6 não está presente no array
+
+
+Exemplo 02:
+
+for (let i = 0; i < quantidade; i++){
+    numero = obterNumeroAleatorio(de, ate);
+    while (sorteados.includes(numero)) {                    //Ou seja, enquanto essa linha for verdadeira, vai executando o código/
+        numero = obterNumeroAleatorio(de, ate);             // Está verificando se o número está incluso, se tiver, ela obtem um novo número.
+    }
+    sorteados.push(numero);
+    }
 
 / push /
 

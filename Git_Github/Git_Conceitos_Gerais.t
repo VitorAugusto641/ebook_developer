@@ -73,3 +73,8 @@ git remote set-url origin https://github.com/seu-usuario/seu-repositorio.git
 / Podemos adicionar participantes em nosso repositorio para fazer alterações /
 
 Entramos no repositorio dentro do git ; depois vamos em configurações ; Colaboradores ; Adicionar Pessoas ; e colocamos username ou email da pessoa. 
+
+/ Para compartilhar apenas trechos de código, podemos utilizar o ' New gist ' /
+
+Próximo da aba do perfil, tem o '+' , ao clicar aparece 'New gist', ao selecionar, abre a tela, onde compartilhamos nosso codigo e depois
+de publicado, pegamos o link e compartilhando com quem quisermos.
